@@ -1,0 +1,18 @@
+package com.biblioteca.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class PrestamoRequest {
+
+    private String usuarioId;
+    private String ejemplarId;
+    private String fechaPrestamo;
+    private String fechaDevolucionEsperada;
+    private String fechaDevolucionReal;
+    private String estado;
+}
